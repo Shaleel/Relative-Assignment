@@ -1,0 +1,145 @@
+.card {
+  width: 290.74px;
+  height: 350.08px;
+  background-image: url(../../assets/Card/bg.svg);
+  position: relative;
+  margin-left: 70px;
+  z-index: 10;
+}
+.card-icon {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  backdrop-filter: blur(100px);
+  position: absolute;
+  left: 95px;
+  top: -50px;
+  border: 1px solid;
+  border-image-source: linear-gradient(
+    180deg,
+    rgba(236, 240, 255, 0.1) 0%,
+    rgba(59, 63, 87, 0) 100%
+  );
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-icon > img {
+  height: 50px;
+  width: 50px;
+}
+.card-content {
+  padding-top: 71px;
+  text-align: center;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.muted {
+  color: #737bae;
+  font-size: 12px;
+}
+.field {
+  background: #14172b;
+  width: 242px;
+  height: 40px;
+  border-radius: 17px;
+  border: 1px solid;
+  border-image-source: linear-gradient(
+    180deg,
+    rgba(236, 240, 255, 0.1) 0%,
+    rgba(46, 49, 73, 0) 107.43%
+  );
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0ff;
+  position: relative;
+  opacity: 90%;
+}
+
+.rate {
+  font-size: 12px;
+  position: absolute;
+  right: 1rem;
+}
+.up {
+  color: #00ffa3;
+}
+.down {
+  color: #ff4d4d;
+}
+.pairs {
+  height: 40px;
+  width: 121.7548828125px;
+  border-radius: 29.5px;
+  justify-content: space-around;
+}
+.pair-icon {
+  width: 22px;
+  height: 22px;
+}
+
+.btc {
+  background: linear-gradient(
+      180deg,
+      rgba(98, 106, 136, 0.1) 0%,
+      rgba(234, 179, 0, 0.06) 100%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(236, 240, 255, 0.1) 0%,
+      rgba(59, 63, 87, 0) 100%
+    );
+}
+.eth {
+  background: linear-gradient(
+      180deg,
+      rgba(98, 106, 136, 0.1) 0%,
+      rgba(237, 240, 244, 0.1) 100%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(236, 240, 255, 0.1) 0%,
+      rgba(59, 63, 87, 0) 100%
+    );
+}
+.sol {
+  background: linear-gradient(
+      180deg,
+      rgba(98, 106, 136, 0.1) 0%,
+      rgba(220, 31, 255, 0.1) 100%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(236, 240, 255, 0.1) 0%,
+      rgba(59, 63, 87, 0) 100%
+    );
+}
+.busd {
+  background: linear-gradient(
+      180deg,
+      rgba(98, 106, 136, 0.1) 0%,
+      rgba(234, 179, 0, 0.06) 100%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(236, 240, 255, 0.1) 0%,
+      rgba(59, 63, 87, 0) 100%
+    );
+}
+.shib {
+  background: linear-gradient(
+      180deg,
+      rgba(98, 106, 136, 0.1) 0%,
+      rgba(228, 45, 4, 0.1) 100%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(236, 240, 255, 0.1) 0%,
+      rgba(59, 63, 87, 0) 100%
+    );
+}
